@@ -1,0 +1,543 @@
+2021/10/27 14:52:34 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Loading user properties from: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\bin\user.properties 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Loading system properties from: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\bin\system.properties 
+2021/10/27 14:52:34 WARN  - jmeter.JMeter: LogLevel: DEBUG 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: java.version=1.8.0_231 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: os.name=Windows 10 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: os.arch=amd64 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: os.version=10.0 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: file.encoding=GBK 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Max memory     =514850816 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Available Processors =8 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: JMeterHome=D:\Java-workplace\JMeterToMavenDemo\target\jmeter 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: user.dir  =D:\Java-workplace\JMeterToMavenDemo\target\jmeter\bin 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: PWD       =D:\Java-workplace\JMeterToMavenDemo\target\jmeter\bin 
+2021/10/27 14:52:34 INFO  - jmeter.JMeter: IP: 10.43.0.104 Name: DESKTOP-FC8320F FullName: DESKTOP-FC8320F 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: ClassPath 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: ApacheJMeter-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\accessors-smart-1.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\asm-5.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\avalon-framework-4.1.4.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcmail-jdk15on-1.49.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcpkix-jdk15on-1.49.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcprov-jdk15on-1.49.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bsf-2.4.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bsh-2.0b5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-codec-1.10.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-collections-3.2.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-dbcp2-2.1.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-httpclient-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-io-2.5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-jexl-2.1.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-jexl3-3.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-lang3-3.5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-logging-1.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-math3-3.6.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-net-3.5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-pool2-2.4.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\dnsjava-2.1.7.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\excalibur-logger-1.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\freemarker-2.3.23.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\geronimo-jms_1.1_spec-1.1.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\groovy-all-2.4.7.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\hamcrest-core-1.3.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpclient-4.5.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpcore-4.4.5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpmime-4.5.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jcharts-0.7.5.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-core-3.7.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-lagarto-3.7.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-log-3.7.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-props-3.7.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jorphan-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\json-path-2.2.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\json-smart-2.2.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jsoup-1.10.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jtidy-r938.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\junit-4.12.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\logkit-2.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\mail-1.5.0-b01.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\mongo-java-driver-2.11.3.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\oro-2.0.8.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ph-commons-6.2.4.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ph-css-4.1.6.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\rhino-1.7.7.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\rsyntaxtextarea-2.6.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\serializer-2.7.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\slf4j-api-1.7.21.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\tika-core-1.14.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\tika-parsers-1.14.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xalan-2.7.2.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xercesImpl-2.11.0.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xml-apis-1.4.01.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xmlgraphics-commons-2.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xmlpull-1.1.3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xpp3_min-1.1.4c.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xstream-1.4.9.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_components-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_core-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_ftp-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_functions-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_http-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_java-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_jdbc-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_jms-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_junit-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_ldap-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_mail-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_mongodb-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_monitors-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_native-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_slf4j_logkit-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_tcp-3.1.jar 
+2021/10/27 14:52:34 DEBUG - jmeter.JMeter: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\jorphan-3.1.jar 
+2021/10/27 14:52:34 INFO  - jmeter.services.FileServer: Default base='D:\Java-workplace\JMeterToMavenDemo\target\jmeter\bin' 
+2021/10/27 14:52:34 INFO  - jmeter.services.FileServer: Set new base='D:\Java-workplace\JMeterToMavenDemo\target\jmeter\testFiles' 
+2021/10/27 14:52:35 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2021/10/27 14:52:35 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2021/10/27 14:52:35 INFO  - jmeter.save.SaveService: Using SaveService properties version 5.0 
+2021/10/27 14:52:35 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 5.0. 
+2021/10/27 14:52:35 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2021/10/27 14:52:35 INFO  - jmeter.save.SaveService: Loading file: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\testFiles\HTTP请求.jmx 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.control.CookieManager: Clear all cookies from store 
+2021/10/27 14:52:35 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2021/10/27 14:52:35 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2021/10/27 14:52:35 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: searchPathsOrJars : [D:\Java-workplace\JMeterToMavenDemo\target\jmeter/lib/ext] 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: superclass : [interface org.apache.jmeter.functions.Function] 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: innerClasses : true annotations: false 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: contains: .functions. notContains: .gui. 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: searchPathsOrJars : [D:\Java-workplace\JMeterToMavenDemo\target\jmeter/lib/ext] 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Classpath = ApacheJMeter-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\accessors-smart-1.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\asm-5.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\avalon-framework-4.1.4.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcmail-jdk15on-1.49.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcpkix-jdk15on-1.49.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bcprov-jdk15on-1.49.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bsf-2.4.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\bsh-2.0b5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-codec-1.10.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-collections-3.2.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-dbcp2-2.1.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-httpclient-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-io-2.5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-jexl-2.1.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-jexl3-3.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-lang3-3.5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-logging-1.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-math3-3.6.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-net-3.5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\commons-pool2-2.4.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\dnsjava-2.1.7.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\excalibur-logger-1.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\freemarker-2.3.23.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\geronimo-jms_1.1_spec-1.1.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\groovy-all-2.4.7.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\hamcrest-core-1.3.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpclient-4.5.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpcore-4.4.5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\httpmime-4.5.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jcharts-0.7.5.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-core-3.7.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-lagarto-3.7.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-log-3.7.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jodd-props-3.7.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jorphan-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\json-path-2.2.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\json-smart-2.2.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jsoup-1.10.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\jtidy-r938.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\junit-4.12.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\logkit-2.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\mail-1.5.0-b01.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\mongo-java-driver-2.11.3.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\oro-2.0.8.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ph-commons-6.2.4.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ph-css-4.1.6.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\rhino-1.7.7.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\rsyntaxtextarea-2.6.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\serializer-2.7.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\slf4j-api-1.7.21.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\tika-core-1.14.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\tika-parsers-1.14.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xalan-2.7.2.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xercesImpl-2.11.0.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xml-apis-1.4.01.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xmlgraphics-commons-2.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xmlpull-1.1.3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xpp3_min-1.1.4c.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\xstream-1.4.9.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_components-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_core-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_ftp-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_functions-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_http-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_java-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_jdbc-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_jms-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_junit-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_ldap-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_mail-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_mongodb-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_monitors-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_native-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_slf4j_logkit-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\ApacheJMeter_tcp-3.1.jar;D:\Java-workplace\JMeterToMavenDemo\target\jmeter\lib\ext\jorphan-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[0] : ApacheJMeter_junit-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[1] : ApacheJMeter_ldap-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[2] : ApacheJMeter_mongodb-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[3] : ApacheJMeter_slf4j_logkit-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[4] : ApacheJMeter_jms-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[5] : ApacheJMeter_core-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[6] : ApacheJMeter_monitors-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[7] : ApacheJMeter_functions-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[8] : ApacheJMeter_http-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[9] : ApacheJMeter_tcp-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[10] : ApacheJMeter_ftp-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[11] : ApacheJMeter_jdbc-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[12] : ApacheJMeter_native-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[13] : ApacheJMeter_components-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[14] : ApacheJMeter_java-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[15] : ApacheJMeter_mail-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[16] : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: strPathsOrJars[17] : jorphan-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: ApacheJMeter-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/accessors-smart-1.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/asm-5.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/avalon-framework-4.1.4.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/bcmail-jdk15on-1.49.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/bcpkix-jdk15on-1.49.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/bcprov-jdk15on-1.49.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/bsf-2.4.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/bsh-2.0b5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-codec-1.10.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-collections-3.2.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-dbcp2-2.1.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-httpclient-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-io-2.5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-jexl-2.1.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-jexl3-3.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-lang3-3.5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-logging-1.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-math3-3.6.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-net-3.5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/commons-pool2-2.4.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/dnsjava-2.1.7.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/excalibur-logger-1.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/freemarker-2.3.23.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/geronimo-jms_1.1_spec-1.1.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/groovy-all-2.4.7.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/hamcrest-core-1.3.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/httpclient-4.5.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/httpcore-4.4.5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/httpmime-4.5.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jcharts-0.7.5.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jodd-core-3.7.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jodd-lagarto-3.7.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jodd-log-3.7.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jodd-props-3.7.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jorphan-3.1.jar found at 17 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/json-path-2.2.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/json-smart-2.2.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jsoup-1.10.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jtidy-r938.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/junit-4.12.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/logkit-2.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/mail-1.5.0-b01.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/mongo-java-driver-2.11.3.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/oro-2.0.8.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ph-commons-6.2.4.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ph-css-4.1.6.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/rhino-1.7.7.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/rsyntaxtextarea-2.6.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/serializer-2.7.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/slf4j-api-1.7.21.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/tika-core-1.14.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/tika-parsers-1.14.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xalan-2.7.2.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xercesImpl-2.11.0.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xml-apis-1.4.01.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xmlgraphics-commons-2.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xmlpull-1.1.3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xpp3_min-1.1.4c.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Did not find: D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/xstream-1.4.9.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_components-3.1.jar found at 13 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_core-3.1.jar found at 5 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_ftp-3.1.jar found at 10 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_functions-3.1.jar found at 7 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_http-3.1.jar found at 8 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_java-3.1.jar found at 14 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_jdbc-3.1.jar found at 11 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_jms-3.1.jar found at 4 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_junit-3.1.jar found at 0 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_ldap-3.1.jar found at 1 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_mail-3.1.jar found at 15 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_mongodb-3.1.jar found at 2 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_monitors-3.1.jar found at 6 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_native-3.1.jar found at 12 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_slf4j_logkit-3.1.jar found at 3 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_tcp-3.1.jar found at 9 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: Adding D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/jorphan-3.1.jar found at 17 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/jorphan-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_components-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_core-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_ftp-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_functions-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_http-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_java-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_jdbc-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_jms-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_junit-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_ldap-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_mail-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_mongodb-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_monitors-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_native-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_slf4j_logkit-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/ApacheJMeter_tcp-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listPaths : D:/Java-workplace/JMeterToMavenDemo/target/jmeter/lib/ext/jorphan-3.1.jar 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses.size()=39 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.BeanShell 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.CSVRead 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.CharFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.EscapeHtml 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.EscapeOroRegexpChars 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.EvalFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.EvalVarFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.FileToString 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Groovy 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.IntSum 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.IterationCounter 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.JavaScript 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Jexl2Function 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Jexl3Function 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.LogFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.LogFunction2 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.LongSum 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.MachineIP 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.MachineName 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Property 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Property2 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Random 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.RandomFromMultipleVars 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.RandomString 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.RegexFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.SamplerName 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.SetProperty 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.SplitFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.StringFromFile 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.TestPlanName 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.ThreadNumber 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.TimeFunction 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.UnEscape 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.UnEscapeHtml 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.UrlDecode 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.UrlEncode 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Uuid 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.Variable 
+2021/10/27 14:52:35 DEBUG - jorphan.reflect.ClassFinder: listClasses : org.apache.jmeter.functions.XPath 
+2021/10/27 14:52:35 DEBUG - jmeter.functions.StringFromFile: ++++++++ Construct org.apache.jmeter.functions.StringFromFile@2d9d1871 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.CompoundVariable: Function count: 40 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.control.gui.TestPlanGui 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.testelement.TestPlan 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 测试计划 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 测试计划 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.TestElementProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.CollectionProperty: [] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: [] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.config.gui.ArgumentsPanel 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.config.Arguments 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 用户定义的变量 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 用户定义的变量 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.threads.gui.ThreadGroupGui 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.threads.ThreadGroup 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 线程组 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 线程组 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: continue 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: continue 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.TestElementProperty: org.apache.jmeter.control.LoopController@6a4e75b3 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.control.gui.LoopControlPanel 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.control.LoopController 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 循环控制器 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 循环控制器 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: org.apache.jmeter.control.LoopController@6a4e75b3 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 1 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.TestElementProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.CollectionProperty: [] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: [] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.gui.HTTPArgumentsPanel 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.config.Arguments 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 用户定义的变量 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 用户定义的变量 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.control.gui.HttpTestSampleGui 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: HTTP请求 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: HTTP请求 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 10.114.14.28 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 10.114.14.28 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 8180 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 8180 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: http 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: http 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: task/query/restartRunTask?id=1452458245535887362 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: task/query/restartRunTask?id=1452458245535887362 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: POST 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: POST 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.CollectionProperty: [	TRUE		FALSE	0	cookie	04871088-ffe4-4920-8579-77cfcc840637] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.TestElementProperty: 	TRUE		FALSE	0	cookie	04871088-ffe4-4920-8579-77cfcc840637 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: cookie 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: cookie 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 04871088-ffe4-4920-8579-77cfcc840637 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 04871088-ffe4-4920-8579-77cfcc840637 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.LongProperty: 0 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 0 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 	TRUE		FALSE	0	cookie	04871088-ffe4-4920-8579-77cfcc840637 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: [	TRUE		FALSE	0	cookie	04871088-ffe4-4920-8579-77cfcc840637] 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.gui.CookiePanel 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.control.CookieManager 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: HTTP Cookie管理器 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: HTTP Cookie管理器 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.control.CookieManager: Clear all cookies from store 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.ObjectProperty: org.apache.jmeter.samplers.SampleSaveConfiguration@6787570f 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace org.apache.jmeter.samplers.SampleSaveConfiguration@6787570f 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.visualizers.ViewResultsFullVisualizer 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.reporters.ResultCollector 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 察看结果树 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 察看结果树 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.ObjectProperty: org.apache.jmeter.samplers.SampleSaveConfiguration@6787570f 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace org.apache.jmeter.samplers.SampleSaveConfiguration@6787570f 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.visualizers.StatVisualizer 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.reporters.ResultCollector 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 聚合报告 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: 聚合报告 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace true 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result:  
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace false 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.ObjectProperty: org.apache.jmeter.samplers.SampleSaveConfiguration@536dcd6d 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Won't replace org.apache.jmeter.samplers.SampleSaveConfiguration@536dcd6d 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\results\20211027-HTTP请求.jtl 
+2021/10/27 14:52:35 DEBUG - jmeter.engine.util.ValueReplacer: Replacement result: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\results\20211027-HTTP请求.jtl 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.control.CookieManager: Policy: compatibility Clear: false 
+2021/10/27 14:52:35 DEBUG - jmeter.reporters.ResultCollector: Opened file: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\results\20211027-HTTP请求.jtl 
+2021/10/27 14:52:35 INFO  - jmeter.JMeter: 正在运行的测试 (1635317555435) 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 线程组. 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2021/10/27 14:52:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.control.CookieManager: Clear all cookies from store 
+2021/10/27 14:52:35 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 2 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: adding controller: org.apache.jmeter.threads.ThreadGroup@57238162 to sampler config 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 2 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 2 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 2 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 2 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.TestCompiler: Subtracting node, stack size = 1 
+2021/10/27 14:52:35 INFO  - jmeter.threads.JMeterThread: Thread started: 线程组 1-1 
+2021/10/27 14:52:35 DEBUG - jmeter.control.GenericController: Calling next on: org.apache.jmeter.control.LoopController 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = DESKTOP-FC8320F 
+2021/10/27 14:52:35 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: notifyFirstSampleAfterLoopRestart 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: Start : sample http://10.114.14.28:8180/task/query/restartRunTask?id=1452458245535887362 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: method POST followingRedirect false depth 0 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to UTF-8 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2021/10/27 14:52:35 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: Created new HttpClient: @436423056 http://10.114.14.28:8180 
+2021/10/27 14:52:35 DEBUG - org.apache.commons.httpclient.Cookie: enter Cookie(String, String, String, String, Date, boolean) 
+2021/10/27 14:52:35 DEBUG - org.apache.commons.httpclient.cookie.CookieSpec: enter CookieSpecBase.match(String, int, String, boolean, Cookie[]) 
+2021/10/27 14:52:35 DEBUG - org.apache.commons.httpclient.cookie.CookieSpec: enter CookieSpecBase.match(String, int, String, boolean, Cookie 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.control.HC3CookieHandler: Found 0 cookies for http://10.114.14.28:8180/task/query/restartRunTask?id=1452458245535887362 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: Storing in HttpContext the user token:线程组 1-1 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection request: [route: {}->http://10.114.14.28:8180][state: 线程组 1-1][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20] 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection leased: [id: 0][route: {}->http://10.114.14.28:8180][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20] 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.JMeterClientConnectionOperator: Connecting to 10.114.14.28:8180 
+2021/10/27 14:52:35 DEBUG - org.apache.http.client.protocol.RequestAddCookies: CookieSpec selected: ignoreCookies 
+2021/10/27 14:52:35 DEBUG - org.apache.http.client.protocol.RequestAuthCache: Auth cache not set in the context 
+2021/10/27 14:52:35 DEBUG - org.apache.http.client.protocol.RequestTargetAuthentication: Target auth state: UNCHALLENGED 
+2021/10/27 14:52:35 DEBUG - org.apache.http.client.protocol.RequestProxyAuthentication: Proxy auth state: UNCHALLENGED 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$7: Attempt 1 to execute request 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.JMeterClientConnectionOperator$JMeterDefaultClientConnection: Sending request: POST /task/query/restartRunTask?id=1452458245535887362 HTTP/1.1 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "POST /task/query/restartRunTask?id=1452458245535887362 HTTP/1.1[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "Connection: keep-alive[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "Content-Length: 0[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "Host: 10.114.14.28:8180[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231)[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  >> "[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> POST /task/query/restartRunTask?id=1452458245535887362 HTTP/1.1 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> Connection: keep-alive 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> Content-Type: application/x-www-form-urlencoded 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> Content-Length: 0 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> Host: 10.114.14.28:8180 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_231) 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "HTTP/1.1 200 [\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Access-Control-Max-Age: 3600[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Access-Control-Allow-Headers: Content-type,token[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Access-Control-Allow-Credentials: true[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Access-Control-Expose-Headers: filename[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Content-Type: application/json;charset=UTF-8[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Transfer-Encoding: chunked[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "Date: Wed, 27 Oct 2021 06:51:38 GMT[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.JMeterClientConnectionOperator$JMeterDefaultClientConnection: Receiving response: HTTP/1.1 200  
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << HTTP/1.1 200  
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Access-Control-Max-Age: 3600 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Access-Control-Allow-Headers: Content-type,token 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Access-Control-Allow-Credentials: true 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Access-Control-Expose-Headers: filename 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Content-Type: application/json;charset=UTF-8 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Transfer-Encoding: chunked 
+2021/10/27 14:52:35 DEBUG - org.apache.http.headers: << Date: Wed, 27 Oct 2021 06:51:38 GMT 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$7: Connection can be kept alive indefinitely 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: Extracted from HttpContext user token:线程组 1-1, storing it as JMeter variable:__jmeter.USER_TOKEN__ 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "24[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "{"success":true,"message":"success"}" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "0[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.http.wire:  << "[\r][\n]" 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection [id: 0][route: {}->http://10.114.14.28:8180][state: 线程组 1-1] can be kept alive indefinitely 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection released: [id: 0][route: {}->http://10.114.14.28:8180][state: 线程组 1-1][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20] 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: ResponseHeadersSize=347 Content-Length=47 Total=394 
+2021/10/27 14:52:35 INFO  - jmeter.reporters.Summariser: summary +      1 in 00:00:00 =    3.1/s Avg:   202 Min:   202 Max:   202 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2021/10/27 14:52:35 DEBUG - jmeter.control.GenericController: Calling next on: org.apache.jmeter.control.LoopController 
+2021/10/27 14:52:35 INFO  - jmeter.threads.JMeterThread: Thread is done: 线程组 1-1 
+2021/10/27 14:52:35 INFO  - jmeter.threads.JMeterThread: Thread finished: 线程组 1-1 
+2021/10/27 14:52:35 DEBUG - jmeter.protocol.http.sampler.HTTPHC4Impl: Thread Finished 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection manager is shutting down 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.JMeterClientConnectionOperator$JMeterDefaultClientConnection: Connection 0.0.0.0:11996<->10.114.14.28:8180 closed 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.JMeterClientConnectionOperator$JMeterDefaultClientConnection: Connection 0.0.0.0:11996<->10.114.14.28:8180 closed 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection manager shut down 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection manager is shutting down 
+2021/10/27 14:52:35 DEBUG - org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager: Connection manager shut down 
+2021/10/27 14:52:35 DEBUG - jmeter.threads.ThreadGroup: Ending thread 线程组 1-1 
+2021/10/27 14:52:35 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2021/10/27 14:52:35 DEBUG - jmeter.reporters.ResultCollector: Closing: D:\Java-workplace\JMeterToMavenDemo\target\jmeter\results\20211027-HTTP请求.jtl 
+2021/10/27 14:52:35 INFO  - jmeter.reporters.Summariser: summary =      1 in 00:00:00 =    3.0/s Avg:   202 Min:   202 Max:   202 Err:     0 (0.00%) 
