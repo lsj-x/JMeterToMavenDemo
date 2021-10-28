@@ -14,6 +14,6 @@ public class CountController {
     @GetMapping("/hello")
     public String count(){
         Long incremnt = redisTemplate.opsForValue().increment("count-pepole");
-        return  "有【" +incremnt+"】 人访问了这个页面";
+        return  "有【" +incremnt+"】 人访问了这个页面2";
     }
 }
