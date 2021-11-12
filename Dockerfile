@@ -1,1 +1,2 @@
 from maven
+COPY Jenkinsfile /
